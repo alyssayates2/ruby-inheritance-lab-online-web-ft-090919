@@ -1,4 +1,4 @@
-require pry 
+require pry
 
 class Student < User
 
@@ -6,11 +6,16 @@ class Student < User
     @knowledge = []
   end
 
-  def learn(new)
-
+  def new
+    knowledge = []
   end
 
-  # def knowledge
-  #    Student.knowledge
-  # end
+  def learn(arg)
+    binding.pry
+    @knowledge << "Ruby framework Rails gem bundle update"
+  end
+
+  def knowledge
+     @knowledge
+  end
 end
