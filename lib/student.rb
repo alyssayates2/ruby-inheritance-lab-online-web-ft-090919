@@ -14,6 +14,6 @@ class Student < User
   end
 
   def knowledge
-    students.knowledge
+    Student.knowledge
   end
 end
