@@ -10,5 +10,5 @@ class Student < User
   end
 
   def learn("arg")
-  end 
+  end
 end
