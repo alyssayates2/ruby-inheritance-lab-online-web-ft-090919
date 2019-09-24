@@ -13,7 +13,7 @@ class Student < User
     @knowledge << "Ruby framework Rails gem bundle update"
   end
 
-  def knowledge(arg)
+  def knowledge
     @knowledge
   end
 end
