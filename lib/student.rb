@@ -9,7 +9,7 @@ class Student < User
     knowledge = []
   end
 
-  def learn("knowledge")
+  def learn("student")
     student.learn
   end
 end
