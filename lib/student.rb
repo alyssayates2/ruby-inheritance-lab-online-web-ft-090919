@@ -1,4 +1,4 @@
-require_relative "./user.rb"
+Student.ancestors "./user.rb"
 
 
 class Student
