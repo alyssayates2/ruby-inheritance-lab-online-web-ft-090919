@@ -6,10 +6,10 @@ class Student < User
   end
 
   def learn("new")
-    
+
   end
 
-  def knowledge
-     Student.knowledge
-  end
+  # def knowledge
+  #    Student.knowledge
+  # end
 end
