@@ -11,8 +11,8 @@ class Student < User
   end
 
   def learn(arg)
-    binding.pry
-    #@knowledge
+    #binding.pry
+    @knowledge << arg 
   end
 
   def knowledge
