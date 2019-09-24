@@ -5,8 +5,8 @@ class Student < User
     @knowledge = []
   end
 
-  def learn
-    @knowledge << "Ruby framework Rails gem bundle update"
+  def learn("student.learn")
+    @knowledge << student.learn
   end
 
   def knowledge
