@@ -11,7 +11,7 @@ class Student < User
   end
 
   def learn(arg)
-    binding.pry
+    bindin.pry
     @knowledge << "Ruby framework Rails gem bundle update"
   end
 
