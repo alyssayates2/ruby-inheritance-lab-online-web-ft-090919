@@ -9,6 +9,7 @@ class Student < User
     knowledge = []
   end
 
-  def learn(@knowledge)
+  def learn(arg)
+    @knowledge
   end
 end
