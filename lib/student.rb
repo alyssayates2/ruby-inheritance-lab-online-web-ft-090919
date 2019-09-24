@@ -1,4 +1,4 @@
-require pry
+require.pry
 
 class Student < User
 
@@ -12,7 +12,7 @@ class Student < User
 
   def learn(arg)
     binding.pry
-    #@knowledge 
+    #@knowledge
   end
 
   def knowledge
