@@ -9,7 +9,7 @@ class Student < User
     knowledge = []
   end
 
-  def learn
-    student.learn("Ruby framework Rails gem bundle update")
+  def learn("Ruby framework Rails gem bundle update")
+    student.learn
   end
 end
