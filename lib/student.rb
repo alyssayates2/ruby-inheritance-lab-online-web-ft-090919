@@ -7,7 +7,7 @@ class Student
 
   @@all = []
 
-  def initialize(first_name, last_name)
+  def initialize
     @first_name = first_name
     @last_name = last_name
     @@all << self
@@ -15,5 +15,5 @@ class Student
 
   def self.all
     @@all
-  end 
+  end
 end
