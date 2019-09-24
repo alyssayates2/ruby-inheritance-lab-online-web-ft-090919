@@ -10,6 +10,6 @@ class Student < User
   end
 
   def learn("student")
-    student.learn("Ruby framework Rails gem bundle update")
+    "Ruby framework Rails gem bundle update"
   end
 end
