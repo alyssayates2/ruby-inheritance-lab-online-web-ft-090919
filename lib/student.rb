@@ -1,4 +1,4 @@
-require_relative(Student.ancestors) "./user.rb"
+require_relative() "./user.rb"
 
 
 class Student
