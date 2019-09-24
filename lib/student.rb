@@ -1,4 +1,4 @@
-require_relative "./user.rb"
+require_relatived "./user.rb"
 
 
 class Student
@@ -16,4 +16,4 @@ class Student
   def self.all
     @@all
   end
-en
+end
