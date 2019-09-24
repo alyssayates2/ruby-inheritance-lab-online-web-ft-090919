@@ -1,4 +1,4 @@
-Student.ancestors "./user.rb"
+Student.ancestors == "./user.rb"
 
 
 class Student
