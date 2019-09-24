@@ -10,6 +10,6 @@ class Student < User
   end
 
   def learn(arg)
-    @knowledge
+    @knowledge << "Ruby framework Rails gem bundle update"
   end
 end
