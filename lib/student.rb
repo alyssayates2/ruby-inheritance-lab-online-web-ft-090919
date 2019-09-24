@@ -14,6 +14,6 @@ class Student < User
   end
 
   def knowledge
-    @knowledge.Student 
+    @knowledge
   end
 end
