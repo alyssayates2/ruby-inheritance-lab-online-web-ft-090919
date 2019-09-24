@@ -1,10 +1,10 @@
 class User
 
-  attr_accessor :first_name, :last_name
+  attr_accessor :first_name, :last_name, :all
 
   @@all = []
 
-  def initialize
+  def initialize(first_name, last_name, all)
     @first_name = first_name,
     @last_name = last_name
     @@all << self
