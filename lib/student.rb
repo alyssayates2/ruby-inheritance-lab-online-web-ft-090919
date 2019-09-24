@@ -1,7 +1,7 @@
 
 
 
-class Student < User 
+class Student < User
 
   
 end
