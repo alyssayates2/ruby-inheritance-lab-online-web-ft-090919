@@ -8,4 +8,8 @@ class Student < User
   def new
     knowledge = []
   end
+
+  def learn
+    student.learn("Ruby framework Rails gem bundle update")
+  end
 end
